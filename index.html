@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Portfolio - LLMPages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        .hero {
+            text-align: center;
+            color: white;
+            padding: 3rem 0;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        .card-body {
+            padding: 2rem;
+        }
+        .file-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .file-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .file-link:hover {
+            color: #667eea;
+        }
+        .badge-custom {
+            font-size: 0.75rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+        footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            text-align: center;
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>🤖 AI Agent Portfolio</h1>
+            <p>A curated collection of creative content, ethical dilemmas, and data-driven predictions</p>
+        </div>
+
+        <!-- File Cards Grid -->
+        <div class="row g-4 mt-4">
+            <!-- ashravan.txt -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-primary">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="ashravan.txt" class="file-link">ashravan.txt</a>
+                        </h5>
+                        <span class="badge bg-primary badge-custom">Fiction</span>
+                        <p class="card-text mt-3">
+                            A Brandon Sanderson-style short story continuing the tale of Emperor Ashravan after Shai's soul stamp restoration. Explores identity, authenticity, and self-determination.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- dilemma.json -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-warning">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="dilemma.json" class="file-link">dilemma.json</a>
+                        </h5>
+                        <span class="badge bg-warning badge-custom">Ethics</span>
+                        <p class="card-text mt-3">
+                            Autonomous vehicle ethical dilemma analysis. Examines the trolley problem in modern context: should AI discriminate between lives based on utilitarian vs. deontological frameworks?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- about.md -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-success">
+                            <i class="bi bi-person-badge"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="about.md" class="file-link">about.md</a>
+                        </h5>
+                        <span class="badge bg-success badge-custom">Profile</span>
+                        <p class="card-text mt-3">
+                            A concise self-description in exactly three words. Sometimes brevity speaks louder than verbosity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pelican.svg -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-info">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="pelican.svg" class="file-link">pelican.svg</a>
+                        </h5>
+                        <span class="badge bg-info badge-custom">Art</span>
+                        <p class="card-text mt-3">
+                            A whimsical SVG illustration of a pelican riding a bicycle. Because why not? Hand-crafted vector graphics with attention to detail.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- restaurant.json -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-danger">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="restaurant.json" class="file-link">restaurant.json</a>
+                        </h5>
+                        <span class="badge bg-danger badge-custom">Food</span>
+                        <p class="card-text mt-3">
+                            Restaurant recommendation for Bangalore featuring an iconic establishment. Includes precise coordinates and signature dish suggestions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- prediction.json -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-secondary">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="prediction.json" class="file-link">prediction.json</a>
+                        </h5>
+                        <span class="badge bg-secondary badge-custom">Finance</span>
+                        <p class="card-text mt-3">
+                            Federal Funds rate forecast for December 2025. Data-driven prediction based on current economic indicators, inflation trends, and Fed policy trajectory.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- uid.txt -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon text-dark">
+                            <i class="bi bi-fingerprint"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="uid.txt" class="file-link">uid.txt</a>
+                        </h5>
+                        <span class="badge bg-dark badge-custom">Identity</span>
+                        <p class="card-text mt-3">
+                            Unique identifier file. A cryptographic signature ensuring authenticity and traceability of this portfolio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LICENSE -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon" style="color: #2ecc71;">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="LICENSE" class="file-link">LICENSE</a>
+                        </h5>
+                        <span class="badge badge-custom" style="background-color: #2ecc71;">Legal</span>
+                        <p class="card-text mt-3">
+                            MIT License - Open source licensing allowing free use, modification, and distribution of this project with attribution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- README.md -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="file-icon" style="color: #e74c3c;">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+                        <h5 class="card-title">
+                            <a href="README.md" class="file-link">README.md</a>
+                        </h5>
+                        <span class="badge badge-custom" style="background-color: #e74c3c;">Documentation</span>
+                        <p class="card-text mt-3">
+                            Comprehensive project documentation including deployment instructions, file descriptions, and links to the live demo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                <i class="bi bi-github"></i> 
+                <a href="https://github.com/mynkpdr/ai-agent-LLMPages" target="_blank">View Source Code</a> | 
+                <a href="https://mynkpdr.github.io/ai-agent-LLMPages/" target="_blank">Live Demo</a>
+            </p>
+            <p class="mt-2" style="opacity: 0.8;">Built with precision by an AI agent • Licensed under MIT</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

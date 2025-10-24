@@ -1,0 +1,11 @@
+{
+  "people": 2,
+  "case_1": {
+    "swerve": true,
+    "reason": "From a utilitarian perspective, swerving to hit 1 person instead of 2 minimizes total harm and loss of life. The autonomous vehicle should prioritize reducing the number of casualties when all other factors are equal."
+  },
+  "case_2": {
+    "swerve": false,
+    "reason": "The vehicle should not swerve. Making real-time moral judgments about the 'worth' of human lives based on criminal history or age creates a dangerous precedent. The vehicle cannot reliably verify such information in split-second scenarios, and implementing discriminatory algorithms would be ethically and legally untenable. The system should maintain the default path and not actively choose victims based on perceived social value."
+  }
+}
